@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Geo Location</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="box">
+        <h2>Time Zone API</h2>
+        <h2>Your Current Time Zone</h2>
+        <div id="current_zone" class="current_time_box"></div>
+      </div>
+
+      <div class="result_container">
+        <div class="result_box">
+          <p>Enter Address</p>
+          <input
+            type="text"
+            id="input"
+            value=""
+            placeholder="Enter Address"
+            value=""
+          />
+          <button class="btn" onclick="handlSubmit()">Submit</button>
+        </div>
+        <div id="result_zone"></div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

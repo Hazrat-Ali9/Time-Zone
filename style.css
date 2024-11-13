@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    height: 47vh;
+}
+
+h2 {
+    text-align: center;
+}
+
+.current_time_box {
+    width: 300px;
+    min-height: 40vh;
+    border: 1px solid #000000;
+    padding: 6px 12px;
+}
+
+.box_item {
+    padding: 2px;
+    display: flex;
+    gap: 3;
+}
+
+.box_item span {
+    font-size: 17px;
+}
+
+.box_item :nth-child(1) {
+    font-weight: 500;
+}
+
+.lat_long {
+    display: flex;
+    justify-content: space-between;
+}
+
+/************************ */
+.result_container {
+    width: 300px;
+    padding: 0px 13px;
+    height: 48vh;
+    background-color: black;
+    color: white !important;
+}
+
+.result_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.result_box p {
+    font-size: 17px;
+}
+
+.result_box input {
+    margin-bottom: 12px;
+    padding: 4px;
+}
+
+.btn {
+    width: 100px;
+    margin-top: 4px;
+    padding: 2px 5px;
+}
+
+.empty_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red !important;
+}
+
+.comma_separeted {
+    margin: 0 4px;
+}
