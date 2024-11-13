@@ -107,3 +107,5 @@ function createCurrentTimezone(data, placed_location) {
     placed_location.innerHTML = `<div class="empty_box" >No Location Found </div>`;
   }
 }
+
+// Script js
